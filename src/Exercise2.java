@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SecondTask {
+public class Exercise2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Select the figure whose area you want to calculate: \n1.Rectangle \n2.Triangle \n3.Circle \nEnter the number: ");
