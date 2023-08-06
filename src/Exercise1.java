@@ -4,19 +4,19 @@ public class Exercise1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number: ");
-        int Number = scanner.nextInt();
-        int FirstNumber = 0, SecondNumber = 1, Cycle = 2;
-        if (Number == 1) {
+        int number = scanner.nextInt();
+        int firstNumber = 0, secondNumber = 1, cycle = 2;
+        if (number == 1) {
             System.out.println("0");
         } else {
             System.out.println("0 \n1");
         }
-        while (Number > Cycle) {
-            int Sum = FirstNumber + SecondNumber;
-            FirstNumber = SecondNumber;
-            SecondNumber = Sum;
-            System.out.println(Sum);
-            Cycle++;
+        while (number > cycle) {
+            int sum = firstNumber + secondNumber;
+            firstNumber = secondNumber;
+            secondNumber = sum;
+            System.out.println(sum);
+            cycle++;
         }
     }
 }
